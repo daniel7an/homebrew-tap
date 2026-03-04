@@ -3,7 +3,7 @@ cask "dotclaude" do
   name "dotclaude"
   desc "Sync your Claude Code configuration across machines"
   homepage "https://github.com/daniel7an/dotclaude"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "dotclaude" do
   on_macos do
     on_intel do
       url "https://github.com/daniel7an/dotclaude/releases/download/v#{version}/dotclaude_#{version}_darwin_amd64.tar.gz"
-      sha256 "530dd13a523b74fc1594d3c495674cb7e861fe528f541cf74be98beef4a65261"
+      sha256 "5cb49e2692f0b04497b6b2724d995a1e688167a3bca728ecbaca6edfb11dc9f5"
     end
     on_arm do
       url "https://github.com/daniel7an/dotclaude/releases/download/v#{version}/dotclaude_#{version}_darwin_arm64.tar.gz"
-      sha256 "18ce1344f4dda8c449dc8c9da7f011e9a7bec00a5b398c66aaf0b26b44177c63"
+      sha256 "fee04e597a72522c156ddd3d0da785664df9193ec46c9d29fe763ed12b750df3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/daniel7an/dotclaude/releases/download/v#{version}/dotclaude_#{version}_linux_amd64.tar.gz"
-      sha256 "2cc941e89e3f87f54dd753cb05a924f0f2591a6f76c9de0bc59af5015b7c3f92"
+      sha256 "c6b3c5642cd22dd7d91cc6aafb82d2fa254983704e81cff45f046f2eb5110e7f"
     end
     on_arm do
       url "https://github.com/daniel7an/dotclaude/releases/download/v#{version}/dotclaude_#{version}_linux_arm64.tar.gz"
-      sha256 "d88c0c8dfb9dbcd9543a36988c234b9941608111e95918ced49f73a4478ccd5f"
+      sha256 "4ba8b60575422f085c8e55c7e7a45f4fa5d16eb349af2550499bee537006796c"
     end
   end
 
